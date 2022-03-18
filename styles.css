@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html,body{
+background-image: url('https://getwallpapers.com/wallpaper/full/5/5/f/168480.jpg'); 
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%; 
+font-family: "Font Awesome 5 Free"
+
+}
+
+.container{
+height: 100%;
+align-content: center;
+}
+
+.card{
+height: 370px;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color: rgba(0,0,0,0.5) !important;
+}
+
+.card-footer{
+    background-color: rgba(0,0,0,0.6) !important;
+}
+.card-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-header h3{
+color: white;
+margin:5px
+}
+
+
+.input-group-prepend span{
+width: 50px;
+background-color: #FFC312;
+color: black;
+border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+#textAlert{
+    color: white;
+    text-align: center;
+    padding-top: 10%; 
+}
+
+
+.btnVoltarDiv{
+    width: 300px;
+    padding: 20;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.btnVoltar{
+    width: 100px;
+    padding: 20px;
+    text-decoration:none;
+    color: black;
+    background-color: #FFC312;;
+    border-radius: 5%;
+ }
+
+.login_btn{
+color: black;
+background-color: #FFC312;
+width: 100px;
+}
+
+.login_btn:hover,.btnVoltar:hover{
+color: black;
+background-color: white;
+text-decoration:none;
+}
+
+
+
+.links{
+color: white;
+}
+
+.links a{
+margin-left: 4px;
+}
+
+.styleLink:hover{
+    color: white;
+    text-decoration:none;
+}
